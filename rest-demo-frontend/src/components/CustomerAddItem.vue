@@ -17,8 +17,6 @@ const apiUrl = 'http://localhost:8080/customers';
       email: event.target.email.value,
       telephone: event.target.email.value,
     }
-
-
     console.log(data)
 
     axios.post(apiUrl, data)
